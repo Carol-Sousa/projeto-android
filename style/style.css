@@ -159,7 +159,7 @@ main a:hover {
     color: var(--cor0);
 }
 aside {
-    background-color: var(--cor1);
+    background-color: var(--cor0);
     padding: 10px;
     border-radius: 10px;
     box-shadow: 3px 3px  9px rgba(0, 0, 0, 0.555);
