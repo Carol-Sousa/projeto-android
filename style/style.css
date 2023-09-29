@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: 'Android';
-    src: url('../pacote-projeto-d010/fontes/idroid.otf') format(opentype); font-weight: normal; /*FONTE BAIXADA, PARA ENCNTRAR É SO COLOCAR / E ESCOLHEr ONDE ESTA*/
+    src: url(../fontes/idroid.otf) format(opentype); font-weight: normal; /*FONTE BAIXADA, PARA ENCNTRAR É SO COLOCAR / E ESCOLHEr ONDE ESTA*/
 }
 
 :root { /*Variáveis*/
@@ -57,6 +57,7 @@ header> p{
     margin: auto; /*SEMPRE COLOCAR*/
     padding-right: 10px; /*PRO TEXTO DESCOLAR DA LATERAL QUANDO DIMINUI A TELA*/
     padding-left: 10px;
+    padding-top: 60px;
     padding-bottom: 30px;
     text-shadow:2px 2px 0px rgba(0, 0, 0, 0.205)
 }
@@ -91,9 +92,9 @@ main p{ /*QUANDO NÂO TEM O SINAL DE FILHO > SIGNIFICA QUE O P ESTA DENTRO DE MA
 }
 main {
     background-color: white;
-    min-width: 300px; /*LIMITE MINIMO DE LARGURA PARA QUEBRA DE TEXTO*/
+    min-width: 200px; /*LIMITE MINIMO DE LARGURA PARA QUEBRA DE TEXTO*/
     max-width: 1000px; /*LIMITE MAXIMO DE LARGURA PARA QUEBRA DE TEXTO*/
-    padding: 20px; /*AFASTA CONTEUDO DA BORDA*/
+    padding: 15px; /*AFASTA CONTEUDO DA BORDA*/
     margin: auto; /*P CONTEUDO FICAR CENTRALIZDO*/
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.507);
     margin-bottom: 30px; /*MARGEM EM BAIXO, PARA AFASTAR CONTEUDO DO RODAPÉ*/
