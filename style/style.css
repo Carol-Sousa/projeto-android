@@ -92,12 +92,12 @@ main p{ /*QUANDO NÂO TEM O SINAL DE FILHO > SIGNIFICA QUE O P ESTA DENTRO DE MA
 }
 main {
     background-color: white;
-    min-width: 200px; /*LIMITE MINIMO DE LARGURA PARA QUEBRA DE TEXTO*/
-    max-width: 1000px; /*LIMITE MAXIMO DE LARGURA PARA QUEBRA DE TEXTO*/
-    padding: 15px; /*AFASTA CONTEUDO DA BORDA*/
+    min-width: 100px; /*LIMITE MINIMO DE LARGURA PARA QUEBRA DE TEXTO*/
+    max-width: 800px; /*LIMITE MAXIMO DE LARGURA PARA QUEBRA DE TEXTO*/
+    padding: 10px; /*AFASTA CONTEUDO DA BORDA*/
     margin: auto; /*P CONTEUDO FICAR CENTRALIZDO*/
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.507);
-    margin-bottom: 30px; /*MARGEM EM BAIXO, PARA AFASTAR CONTEUDO DO RODAPÉ*/
+    margin-bottom: 5px; /*MARGEM EM BAIXO, PARA AFASTAR CONTEUDO DO RODAPÉ*/
     border-bottom-left-radius: 10px; /*ARREDONDA BORDA INF. ESQUERDA*/
     border-bottom-right-radius: 10px; /*ARREDONDA BORDA INF. DIREITA*/
 }
